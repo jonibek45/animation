@@ -9,7 +9,7 @@ body {
     height: 60px;
     background: greenyellow;
 border-radius: 2px;
-animation: circle 10s linear 1s infinite;
+animation: circle 15s linear 1s infinite;
 margin: 45px 0 0 45px
 }
 @keyframes circle {
