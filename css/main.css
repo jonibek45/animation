@@ -1,0 +1,78 @@
+body {
+    position: relative;
+   background-image: url(../images/animation-image.jpg);
+   background-repeat: no-repeat;
+}
+.circle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: greenyellow;
+border-radius: 100%;
+animation: circle 10s linear 1s infinite;
+margin: 45px 0 0 45px
+}
+@keyframes circle {
+    0% {
+   top: 0px;
+   left: 0px;
+    }
+    10% {
+top: 0px;
+left: 230px;
+background: burlywood;
+border-radius: 20%;
+    }
+  20% {
+    top: 250px;
+    left:  230px;
+    background: deepskyblue;
+    border-radius: 5%;
+  }
+  30% {
+    top:250px ;
+    left: 775px;
+    background: maroon;
+    border-radius: 10%;
+  }
+  40% {
+top: 375px;
+left:775px ;
+background: deeppink;
+border-radius: 30%;
+}
+50% {
+  top: 375px;
+  left: 480px;
+  background: tan;
+  border-radius:45% ;
+}
+60% {
+  top:335px ;
+  left:475px ;
+  background: rosybrown;
+  border-radius: 25%;
+}
+70% {
+  top: 335px;
+  left: 250px;
+  background: mediumpurple;
+  border-radius: 15%;
+}
+80% {
+  top: 235px; 
+  left: 70px; 
+  background: purple;
+border-radius: 35%;
+}
+90% {
+  top: 250px;
+  left: 0;
+  background: silver;
+  border-radius: 17%;
+}
+    100% {
+  top: 0px;
+  left: 0px;
+    }
+  }
