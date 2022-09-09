@@ -8,7 +8,7 @@ body {
     width: 60px;
     height: 60px;
     background: greenyellow;
-border-radius: 100%;
+border-radius: 2px;
 animation: circle 10s linear 1s infinite;
 margin: 45px 0 0 45px
 }
@@ -74,5 +74,6 @@ border-radius: 35%;
     100% {
   top: 0px;
   left: 0px;
+  border-radius: 2px;
     }
   }
